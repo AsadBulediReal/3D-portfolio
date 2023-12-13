@@ -43,7 +43,7 @@ const About = () => {
       >
         Greetings! I am a seasoned web developer with six years of professional
         experience. I possess extensive expertise in HTML5, CSS3, JavaScript,
-        jQuery, Bootstrap, React, NodeJS,Express.JS, WordPress, WooCommerce, and
+        jQuery, Bootstrap, React, NodeJS, ExpressJS, WordPress, WooCommerce, and
         Elementor Pro. My background spans both front-end and back-end
         development, enabling me to craft dynamic, responsive, and user-friendly
         websites tailored to meet business requirements.
