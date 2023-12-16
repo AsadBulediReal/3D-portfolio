@@ -5,14 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
-const FeedbackCard = ({
-  index,
-  name,
-  designation,
-  testimonial,
-  company,
-  image,
-}) => {
+const FeedbackCard = ({ index, name, designation, testimonial, company }) => {
   return (
     <motion.div
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -49,7 +42,6 @@ const Feedbacks = () => {
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => {
-          console.log(testimonial);
           return (
             <FeedbackCard
               key={testimonial.name}
