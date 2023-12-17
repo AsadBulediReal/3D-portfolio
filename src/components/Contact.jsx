@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const formRef = useRef();
@@ -35,13 +36,21 @@ const Contact = () => {
       .then(
         () => {
           setloading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          Swal.fire({
+            title: "Good job!",
+            text: "Thank you. I will get back to you as soon as possible.",
+            icon: "success",
+          });
           setForm({ name: "", email: "", message: "" });
         },
         (error) => {
           setloading(false);
           console.log(error);
-          alert("Something went worng.");
+          Swal.fire({
+            title: "Error",
+            text: "Something went worng.",
+            icon: "error",
+          });
         }
       );
   };
