@@ -122,7 +122,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Html Developer",
     company_name: "Starbucks",
     icon: person,
     iconBg: "#383E56",
