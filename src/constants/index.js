@@ -119,10 +119,6 @@ const technologies = [
     name: "Next JS",
     icon: next,
   },
-  {
-    name: "Docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
