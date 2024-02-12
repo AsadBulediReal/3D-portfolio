@@ -13,10 +13,11 @@ import {
   mongodb,
   git,
   figma,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  next,
+  docker,
+  weatherApp,
+  RealState,
 } from "../assets";
 
 import person from "../assets/company/person.svg";
@@ -60,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Video Editor",
+    title: "Next JS Developer",
     icon: creator,
   },
 ];
@@ -118,59 +119,54 @@ const technologies = [
     name: "Photoshop",
     icon: photoshop,
   },
+  {
+    name: "Next JS",
+    icon: next,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
   {
-    title: "Html Developer",
-    company_name: "Starbucks",
+    title: "Junior Developer",
+    company_name: "university of sindh",
     icon: person,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2010 - Jan 2013",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Html css Js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software engineer",
+    company_name: "university of sindh",
     icon: person,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2014 - Feb 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop full-stack web applications using React.js, Node.js, and Express.js.",
+      "Using CSS frameworks and media queries for responsiveness.",
+      "Ensuring alignment of development tasks with product goals.",
+      "Providing constructive feedback on code quality and standards.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Senior Developer",
+    company_name: "university of sindh",
     icon: person,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2018 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: person,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building and upkeeping web applications with React.js and associated technologies, including Next.js for server-side rendering.",
+      "Leading a team in collaborating across functions, working with designers, product managers, and fellow developers to craft top-tier products.",
+      "Executing responsive design strategies and guaranteeing compatibility across various browsers.",
+      "Participating actively in code reviews and providing insightful feedback to cultivate a collaborative and high-caliber development atmosphere. Employing GitHub for efficient version control and seamlessly integrating MongoDB or MySQL for robust data management solutions.",
     ],
   },
 ];
@@ -178,56 +174,32 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful, but Jamil proved me wrong.",
+    name: "Muzamil Khan",
+    designation: "operations director",
+    company: "university of sindh",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Jamil does.",
     name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    designation: "owner",
+    company: "Client",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Jamil optimized our website, our traffic increased by 50%. We can't thank him enough!",
+    name: "Asad Wang",
+    designation: "manager",
+    company: "Client",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Weather Disclose",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that enables users to access details about the weather, including temperature, visibility, sunrise, sunset, and more.",
     tags: [
       {
         name: "react",
@@ -238,33 +210,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weatherApp,
+    source_code_link: "https://weatherdisclose.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Real State",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that enables users that are in search of a house or apartment and locate available listing based on their current location.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: RealState,
+    source_code_link: "https://real-state-design.netlify.app/",
   },
 ];
 

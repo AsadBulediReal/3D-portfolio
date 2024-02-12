@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import docker from "./tech/docker.png";
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -18,10 +19,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import next from "./tech/Next.js.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import weatherApp from "./weather-app.webp";
+import RealState from "./real-state-design.webp";
+import viewLink from "./view-website.png";
 
 export {
   logo,
@@ -29,7 +31,8 @@ export {
   creator,
   mobile,
   web,
-  github,
+  docker,
+  viewLink,
   menu,
   close,
   css,
@@ -43,7 +46,7 @@ export {
   redux,
   tailwind,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  next,
+  weatherApp,
+  RealState,
 };
