@@ -18,6 +18,7 @@ import {
   docker,
   weatherApp,
   RealState,
+  website,
 } from "../assets";
 
 import person from "../assets/company/person.svg";
@@ -229,6 +230,27 @@ const projects = [
     ],
     image: RealState,
     source_code_link: "https://real-state-design.netlify.app/",
+  },
+  {
+    name: "E-commerce store",
+    description:
+      "Web application that enables users to purchase products online.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "woocommerce",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: website,
+    source_code_link: "/",
   },
 ];
 

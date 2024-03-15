@@ -23,6 +23,7 @@ import next from "./tech/Next.js.png";
 import weatherApp from "./weather-app.webp";
 import RealState from "./real-state-design.webp";
 import viewLink from "./view-website.png";
+import website from "./website.png";
 
 export {
   logo,
@@ -48,4 +49,5 @@ export {
   next,
   weatherApp,
   RealState,
+  website,
 };
